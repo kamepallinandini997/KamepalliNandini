@@ -4,6 +4,9 @@ import { ArrowDown, Download } from "lucide-react";
 import nandiniProfile from "@/assets/nandini-profile.jpg";
 
 const Hero = () => {
+  // 🚀 HMR Verification Marker - Remove after confirming hot reload works
+  console.log('[Hero.tsx] Component loaded at:', new Date().toLocaleTimeString());
+  
   const heroRef = useRef<HTMLElement | null>(null);
 
   const scrollToAbout = () => {
@@ -41,15 +44,12 @@ const Hero = () => {
           {/* Left Content */}
           <div className="space-y-10 animate-fade-in-up">
             <div className="space-y-6">
-              
-
               <h1 className="text-6xl lg:text-8xl font-bold font-poppins leading-tight bg-gradient-to-r from-blue-300 to-purple-500 bg-clip-text text-transparent block">
                 Nandini
                 <span className="bg-gradient-to-r from-blue-400 via-purple-300 to-pink-400 bg-clip-text text-transparent block">
                   Kamepalli
                 </span>
               </h1>
-
               <h2 className="text-3xl lg:text-5xl font-semibold text-muted-foreground leading-relaxed">
                Agentic AI Enthusiast |  {" "}
                 <span className="bg-gradient-to-r from-blue-400 via-purple-300 to-pink-400 bg-clip-text text-transparent">
@@ -88,9 +88,10 @@ const Hero = () => {
               {/* Fixed Resume Download */}
               <a href="/Nandini_Kamepalli_Profile.pdf" download>
                 <Button
-                  className="px-12 py-8 text-xl font-semibold "
+                  size="lg"
+                className="group px-12 py-8 text-xl font-semibold hover-lift"
                 >
-                  <Download className="mr-3 h-6 w-6" />
+                  <Download className="h-6 w-6" />
                   Download Resume
                 </Button>
               </a>

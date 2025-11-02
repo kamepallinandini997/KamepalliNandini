@@ -8,6 +8,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    hmr: {
+      // Ensure HMR works properly
+      protocol: 'ws',
+    },
   },
   plugins: [
     react(),
@@ -20,4 +24,6 @@ export default defineConfig(({ mode }) => ({
   },
   // 👇 Important for GitHub Pages
   base: "/",
+  // Clear screen on restart for better debugging
+  clearScreen: false,
 }));

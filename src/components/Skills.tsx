@@ -28,7 +28,7 @@ const Skills = () => {
       icon: Trophy,
       color: "text-blue-600",
       link: "https://www.credly.com/badges/28acd732-3802-410a-abd0-29c91b32ae11/public_url",
-      type: "certificate"
+      type: "badge"
     },
     {
       name: "AWS Academy Cloud Foundations",
