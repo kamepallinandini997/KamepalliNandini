@@ -5,19 +5,18 @@ import { Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Agentic AI Workflow System",
-      description:
-        "An intelligent task automation system leveraging GPT and LangChain to streamline enterprise workflows. Features role-based access control and dynamic task assignments for maximum efficiency.",
-      technologies: ["GPT", "LangChain", "FastAPI", "MongoDB", "JWT"],
-      status: "In Development",
-      highlights: [
-        "40% improvement in task completion time",
-        "Role-based intelligent automation",
-        "Scalable microservices architecture",
-      ],
-      github: "#",
-    },
+   {
+  title: "Voice-Based Smart Food Ordering System",
+  description:
+    "A Swiggy/Zomato-style multi-agent, voice-enabled food ordering platform built using FastAPI, LangGraph, Gemini, and local STT/TTS. Features conversational ordering, multi-role authentication.",
+  technologies: ["FastAPI", "LangGraph", "Gemini", "React", "Tailwind", "JWT", "Local STT/TTS"],
+  status: "Completed",
+  highlights: [
+    "90%+ accurate voice ordering with multi-agent orchestration",
+    "Dynamic restaurant onboarding with owner/admin dashboards"
+  ],
+  github: "https://github.com/kamepallinandini997/speak-dish-magic"
+},
     {
       title: "Role-Based Task Tracking System",
       description:

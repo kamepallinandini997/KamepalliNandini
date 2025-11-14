@@ -115,7 +115,7 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/kamepallinandini997",
+      value: "github.com/nandinikamepalli",
       href: "https://github.com/kamepallinandini997?tab=repositories",
     },
   ];

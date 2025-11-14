@@ -45,7 +45,24 @@ const Skills = () => {
       color: "text-purple-600",
       link: "https://www.udemy.com/certificate/UC-75751554-6b5f-4ce6-803f-b11e34bc7482/",
       type: "certificate"
+    },
+     {
+      name: "LangGraph Essentials",
+      issuer:"LangChain Academy",
+      icon: Trophy,
+      color: "text-blue-600",
+      link: "https://academy.langchain.com/certificates/np7p2cosol",
+      type: "certificate"
+    },
+    {
+      name: "LangChain Essentials ",
+      issuer:"LangChain Academy",
+      icon: Trophy,
+      color: "text-blue-600",
+      link: "https://academy.langchain.com/certificates/tyq2tmcgdb",
+      type: "certificate"
     }
+ 
   ];
 
   return (
